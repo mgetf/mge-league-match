@@ -28,10 +28,6 @@ The match payload does not carry a whitelist yet. The plugin still looks for `wh
 
 Clearing the lock clears the override, so the arena cfg whitelist comes back.
 
-## Chat
-
-Player-facing lines live in `translations/mge_league_match.phrases.txt`. English is `en`. Spanish is `es`. SourceMod picks the client's language and falls back to English.
-
 ## Cvars
 
 | Cvar | Default | Meaning |
@@ -43,25 +39,6 @@ Both land in `cfg/sourcemod/mge_league_match.cfg`.
 
 ## Requirements
 
-- Team Fortress 2
-- SourceMod with SourcePawn 1.12
-- [MGEMod](https://github.com/mgetf/MGEMod) with the arena-add forward and the whitelist override natives
+- [MGEMod >3.1.0-beta39](https://github.com/mgetf/MGEMod) with the arena-add forward and the whitelist override natives
 - [REST in Pawn (RIPExt)](https://github.com/ErikMinekus/sm-ripext)
 - [mge_whitelist](https://github.com/mgetf/mge-whitelist), if the lock should also restrict weapons
-
-The reads are anonymous. Do not put an API key in this plugin.
-
-## Install
-
-1. Copy `plugins/mge_league_match.smx` to `addons/sourcemod/plugins/`.
-2. Copy `translations/mge_league_match.phrases.txt` to `addons/sourcemod/translations/`.
-3. RIPExt (`rip.ext`) must already be installed.
-4. Set `mge_league_match_whitelist` to the list the league is playing until the API sends one.
-
-## Build
-
-```
-spcomp -i"./scripting/include" -i"../MGEMod/addons/sourcemod/scripting/include" scripting/mge_league_match.sp -o plugins/mge_league_match.smx
-```
-
-SourcePawn 1.12. The compiler include path for `mge.inc` has to point at MGEMod. The `.smx` is not committed.
