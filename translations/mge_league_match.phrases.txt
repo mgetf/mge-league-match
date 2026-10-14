@@ -1,0 +1,117 @@
+"Phrases"
+{
+	"ConsoleOnly"
+	{
+		"en"		"[League] !match is for players in the server."
+		"es"		"[Liga] !match es para jugadores dentro del servidor."
+	}
+	"Busy"
+	{
+		"en"		"{orange}[mge.tf]{default} Already looking up your match."
+		"es"		"{orange}[mge.tf]{default} Ya estoy consultando tu match."
+	}
+	"NoSteamId"
+	{
+		"en"		"{orange}[mge.tf]{default} Couldn't read your SteamID."
+		"es"		"{orange}[mge.tf]{default} No pude leer tu SteamID."
+	}
+	"ApiEmpty"
+	{
+		"en"		"{orange}[mge.tf]{default} mge_league_match_api is empty."
+		"es"		"{orange}[mge.tf]{default} mge_league_match_api está vacío."
+	}
+	"SeasonsMissing"
+	{
+		"en"		"{orange}[mge.tf]{default} The API did not return seasons."
+		"es"		"{orange}[mge.tf]{default} La API no devolvió las seasons."
+	}
+	"NoActiveSeason"
+	{
+		"en"		"{orange}[mge.tf]{default} There is no active season."
+		"es"		"{orange}[mge.tf]{default} No hay una season activa."
+	}
+	"MatchesMissing"
+	{
+		"en"		"{orange}[mge.tf]{default} The API did not return matches."
+		"es"		"{orange}[mge.tf]{default} La API no devolvió los matches."
+	}
+	"NoPendingMatch"
+	{
+		"en"		"{orange}[mge.tf]{default} You have no pending match in the current season."
+		"es"		"{orange}[mge.tf]{default} No tenés un match pendiente en la season actual."
+	}
+	"RivalsMissing"
+	{
+		"en"		"{orange}[mge.tf]{default} Not all of your opponents are in this arena. The arena stays open."
+		"es"		"{orange}[mge.tf]{default} No están todos tus rivales en esta arena. La arena sigue abierta."
+	}
+	"EnterArena"
+	{
+		"en"		"{orange}[mge.tf]{default} Join the arena with your opponent and use !match again to lock it."
+		"es"		"{orange}[mge.tf]{default} Entrá a la arena con tu rival y usá !match de nuevo para bloquearla."
+	}
+	"AlreadyLocked"
+	{
+		"en"		"{orange}[mge.tf]{default} This arena is already locked."
+		"es"		"{orange}[mge.tf]{default} Esta arena ya está bloqueada."
+	}
+	"ArenaBlocked"
+	{
+		"en"		"{orange}[mge.tf]{default} This arena is locked. A league match is in progress."
+		"es"		"{orange}[mge.tf]{default} Esta arena está bloqueada. Hay un match de liga en curso."
+	}
+	"ArenaLocked"
+	{
+		"#format"	"{1:s},{2:s}"
+		"en"		"{orange}[mge.tf]{default} Arena {1} locked for the match against {2}."
+		"es"		"{orange}[mge.tf]{default} Arena {1} bloqueada para el match contra {2}."
+	}
+	"NoWhitelist"
+	{
+		"en"		"{orange}[mge.tf]{default} The match has no whitelist, and mge_league_match_whitelist is empty. The arena was locked anyway."
+		"es"		"{orange}[mge.tf]{default} No hay whitelist en el match ni en mge_league_match_whitelist. La arena quedó bloqueada igual."
+	}
+	"DefaultWhitelist"
+	{
+		"#format"	"{1:s}"
+		"en"		"{orange}[mge.tf]{default} The match had no whitelist. Using mge_league_match_whitelist ({1})."
+		"es"		"{orange}[mge.tf]{default} No había whitelist en el match. Se usó mge_league_match_whitelist ({1})."
+	}
+	"ArenaUnlocked"
+	{
+		"#format"	"{1:s}"
+		"en"		"{orange}[mge.tf]{default} Arena {1} is no longer locked."
+		"es"		"{orange}[mge.tf]{default} La arena {1} ya no está bloqueada."
+	}
+	"RateLimited"
+	{
+		"en"		"{orange}[mge.tf]{default} The API is rate limiting requests. Try again in a minute."
+		"es"		"{orange}[mge.tf]{default} La API está limitando consultas. Probá de nuevo en un minuto."
+	}
+	"ApiFailed"
+	{
+		"en"		"{orange}[mge.tf]{default} Couldn't reach mge.tf."
+		"es"		"{orange}[mge.tf]{default} No pude consultar mge.tf."
+	}
+	"PendingMatch"
+	{
+		"#format"	"{1:s},{2:d},{3:s},{4:s}"
+		"en"		"{orange}[mge.tf]{default} Pending match against {1}, week {2}{3}{4}."
+		"es"		"{orange}[mge.tf]{default} Match pendiente contra {1}, semana {2}{3}{4}."
+	}
+	"NameSeparator"
+	{
+		"en"		" and "
+		"es"		" y "
+	}
+	"UnknownOpponent"
+	{
+		"en"		"your opponent"
+		"es"		"tu rival"
+	}
+	"ThisArena"
+	{
+		"en"		"this arena"
+		"es"		"esta arena"
+	}
+}
